@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-game {
+    width: 410px;
+    margin: 100px auto;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.play-area {
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+
+.block {
+    padding: 15px 45px;
+    width: 5px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
+.item {
+    margin: 1px;
+    float: left;
+    width: 97px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.cell:nth-child(4n) {
+    margin-right: 0;
+}
+
+.control-panel {
+    margin-top: 20px;
+}
+
+.control-panel button {
+    width: 410px;
+    height: 50px;
+    outline: none;
+}
+
+.start-btn {
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn:active {
+    text-decoration: none;
+    background-color: #e2e2e2;
+    font-size: 20px;
+}
+
+.win {
+    display: none;
+    padding: 10px;
+    color: #008000;
+    font-size: 40px;
+    text-align: center;
+}
+
+.win.show {
+    display: block;
+}
